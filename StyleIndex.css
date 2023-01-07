@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Rowdies:wght@700&display=swap');
+
+.body {
+    padding: 0;
+}
+
+.TitleText {
+  text-align: center;
+  text-decoration: none;
+  font-size: xx-large;
+  font-family: 'Rowdies', cursive;
+  color: white;
+  outline-width: 3px;
+}
+
+.desc__title {
+    text-align: center;
+    text-decoration: none;
+    font-size: x-large;
+    font-family: 'Rowdies', cursive;
+    color: whitesmoke;
+    outline-width: 3px;
+  }
+
+
+.hr hr {
+    height: 5px;
+    background-color: black;
+    outline-offset: 2rem;
+}
+
+.column {
+    float: left;
+    width: 32.33%;
+    padding: 4.7px;
+}
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
